@@ -1,13 +1,19 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" dir="rtl">
 <head>
+    
     <meta charset="UTF-8">
     <meta name="viewport" content="width=1.0, initial-scale=1.0">
     <title>Cinima Square</title>
 </head>
 <body>
     <div  class="MainView">
-        
+        <img src="https://raw.githubusercontent.com/SKbarbon/MyCinimaSquare/main/IMG_3591.jpg" alt=""  class="cinima_square_icon">
+        <h2 style="margin-top: -20px;">Cinima Square</h2>
+        <p>تابع أحدث الأفلام، المسلسلات أو حتى الأنمي والكرتون مجانا!</p>
+        <div>
+            
+        </div>
     </div>
 </body>
 
@@ -15,21 +21,21 @@
 <style>
 body {
     background-color: black;
+    color: white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.cinima_square_icon {
+    width: 550px;
 }
 
 .MainView {
-    padding: 20px;
-    animation: Show_it 3s forwards;
-}
-
-@media only screen and (min-width: 600px) {
-    .MainView {
-        position: absolute;
-        left : 50%;
-        top: 40%;
-        margin-right: -50%;
-        transform: translate(-50%, -50%);
-    }
+    position: absolute;
+    left : 50%;
+    top: 30%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
 }
 </style>
 
