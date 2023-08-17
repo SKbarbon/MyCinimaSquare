@@ -3,14 +3,27 @@
 <head>
     
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=1.0, initial-scale=1.0">
+    <meta name="viewport" content="initial-scale=1.0">
     <title>Cinima Square</title>
 </head>
 <body>
     <div  class="MainView">
         <img src="https://raw.githubusercontent.com/SKbarbon/MyCinimaSquare/main/IMG_3591.jpg" alt=""  class="cinima_square_icon">
         <h2 style="margin-top: -20px;">Cinima Square</h2>
-        <p>تابع أحدث الأفلام، المسلسلات أو حتى الأنمي والكرتون مجانا!</p>
+        <p  >تابع أحدث الأفلام، المسلسلات أو حتى الأنمي والكرتون مجانا!</p>
+
+        <h4 class="sectiontitle">Download for iOS</h4>
+        <div style="margin-top: 40px;">
+            <a href="altstore://install?url=https://raw.githubusercontent.com/SKbarbon/MyCinimaSquare/main/MyCinimaSquare.ipa"  class="iosaltstore">Download via ALT Store</a>
+        </div>
+        <div style="margin-top: 45px">
+            <a href="altstore://install?url=https://raw.githubusercontent.com/SKbarbon/MyCinimaSquare/main/MyCinimaSquare.ipa"  class="iosdownloadipa" style="background-color: white; color: black;">Download the IPA</a>
+        </div>
+        
+        <h4 class="sectiontitle">Download for Android SOON </h4>
+        <div  style="margin-top: 40px;">
+            <a href="d" class="androiddownload">Download for Android</a>
+        </div>
         <div>
             
         </div>
@@ -26,14 +39,52 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+.sectiontitle {
+    padding-top: 30px;
+    margin-bottom: -10px;
+}
+
+.iosaltstore {
+    background-color: #5BC6B3;
+    color: white;
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 12px;
+    text-decoration: none;
+}
+
+.iosdownloadipa {
+    padding-left: 55px;
+    padding-right: 55px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 12px;
+    text-decoration: none;
+}
+
+.androiddownload {
+    background-color: white;
+    color: rgb(33, 116, 69);
+    font-weight: bold;
+    padding-left: 33px;
+    padding-right: 33px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 12px;
+    margin-top: 40px;
+    text-decoration: none;
+}
+
 .cinima_square_icon {
-    width: 550px;
+    width: 330px;
 }
 
 .MainView {
     position: absolute;
     left : 50%;
-    top: 30%;
+    top: 40%;
     margin-right: -50%;
     transform: translate(-50%, -50%);
 }
